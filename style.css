@@ -1,0 +1,179 @@
+.body{
+    height: 4337px;
+    background-color: beige;
+    margin: 0;
+}
+.page{
+    height: 4337px;
+}
+.header{
+    height: 120px;
+    background-color: saddlebrown;
+    margin: 0;
+}
+.header-inner{
+    height: 120px ;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+} 
+nav img{
+    border-radius: 100%;
+    height: 70px;
+    align-items: flex-start;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:cadetblue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;  
+}
+.introduction{
+    height: 1084px;
+    background-image: url(images/amenities.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.overlay{
+    color:rgba(0 , 0, 0, 0.3);
+    height:fit-content;
+    padding-top: 492px;
+    padding-bottom: 592px;
+    transition: 1s;
+}
+.welcometxt{
+    font-size: 50px;
+    display: inline-block;
+    position:relative;
+    color: whitesmoke;
+    text-align: center;
+}
+.motto{
+    color: whitesmoke;
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+
+        /* ABOUT THE SCHOOL */
+.content{
+    height: 1084px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+h1{
+    font-size: 26px;
+    font-weight: 600;
+
+}
+p{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 22px;
+    padding: 10px;
+}
+.row-1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.col-about{
+    flex-basis: 31%;
+    background: burlywood;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.col-about:hover{
+    box-shadow: 0 0 20px 0px rgba(0 , 0, 0, 0.3);
+    cursor: pointer;
+}
+.row-2{
+
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.col-units{
+    flex-basis: 24%;
+    background: burlywood;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.col-units:hover{
+    box-shadow: 0 0 20px 0px rgba(0 , 0, 0, 0.3);
+    cursor:pointer;
+}
+.col-subjects{
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.col-subjects img{
+    display: inline-block;
+    border-radius: 10px;
+}
+       /* INVENTORY   */
+
+.inventory{
+    height: 2049px;
+    text-align: center;
+}
+.inventory img{
+    width: 100%;
+}
+.layer{
+    background:rgba(rgb(136, 114, 114), rgb(103, 122, 103), rgb(93, 93, 110), 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+
+    /* FOOTER */
+
+.btm-header{
+    height: 200px;
+    background-color: saddlebrown;
+    margin: 0;
+}
+
